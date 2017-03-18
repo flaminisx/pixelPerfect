@@ -29,6 +29,9 @@ header{
 .menu>span>div>a{
 	margin-left: 5px;
 }
+.menu>span>div>a:visited{
+
+}
 
 .nav-line{
 	height:1px;

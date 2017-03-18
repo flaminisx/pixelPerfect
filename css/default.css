@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.clear{
+  clear: both
+}
+a{
+  text-decoration: none;
+}
+
+
+footer{
+	width:100%;
+	background: #1e1e23;
+	float:left;
+	padding-top:135px;
+	padding-bottom:100px;
+}
+
+.foot-input {
+    font-family: 'Century Gothic';
+    float: left;
+    padding: 5px 0 15px 0;
+    background: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #284ecd;
+    color: #999999;
+    transition: 0.5s;
+}
+
+.foot-buton {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background: #284ecd;
+    float: left;
+    margin-left: 20px;
+}
