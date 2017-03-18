@@ -1,0 +1,47 @@
+header#hight{
+	height: 100px;
+	padding-top:35px;
+}
+
+header{
+	z-index: 100;
+}
+
+#small{
+	padding:10px;
+	height: 60px;
+	background:white;
+	width:100%;
+	top:0;
+	left:0;
+	position:fixed;
+	display:none;
+}
+
+.menu{
+	margin-left:95px;
+}
+
+.active>a .nav-line{
+	width:30%;
+}
+
+.menu>span>div>a{
+	margin-left: 5px;
+}
+
+.nav-line{
+	height:1px;
+	width:0;
+	transition:0.5s;
+	margin-left: 5px;
+	margin-top:3px;
+}
+
+.menu>span>div>a:hover .nav-line{
+	width:30%;
+}
+
+.menu>span>div>a>img{
+	margin-left: 5px;
+}

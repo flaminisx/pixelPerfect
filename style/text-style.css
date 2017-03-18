@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'Century Gothic';
+    src: url('../fonts/GOTHIC.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url('../fonts/YESEVAONE-REGULAR.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'Century Gothic Bold';
+    src: url('../fonts/b.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:hover, a:focus{
+    text-decoration: none !important;
+}
+
+.nav-text{
+    font-size:12px;
+    font-family:'Century Gothic';
+}
+
+.bold-text{
+    font-size:16px;
+    font-family:'Century Gothic Bold';
+}
+
+.tittle-page-text{
+    font-size:48px;
+    font-family:'Yeseva One';
+}
+
+.tittle-page-telephone{
+    font-size:30px;
+    font-family:'Century Gothic';
+}
+
+.other-text{
+    font-size: 1em;
+    font-family:'Century Gothic';
+}
+
+.content-tittle{
+    font-family:'Yeseva One';
+    font-size:36px;
+    float: right;
+}
+
+.person-name-text{
+    font-size:24px;
+    font-family:'Yeseva One';
+}
+
+.person-position{
+    font-size:14px;
+    font-family:'Century Gothic';
+}
+
+.link-text{
+    font-size: 1.4em;
+    font-family:'Century Gothic';
+}
+
+.middle-content-text{
+    font-size:16px;
+    font-family:'Century Gothic';   
+}
