@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+}
+.left{
+  width: 410px;
+  display: flex;
+  justify-content: flex-end;
+  /*padding-right: 25px;*/
+}
+.right{
+  width: 675px;
+  padding-left: 85px;
+}
+.title{
+  color: #ffffff;
+  font-family: "Yeseva One";
+  font-size: 48px;
+  font-weight: 400;
+}
+.subtitle{
+  color: #2d2d2d;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.text{
+  color: #373737;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.sect2-cont{
+  margin-top: 100px;
+}
+.hr-line{
+  width: 142px;
+  border: 1px solid #284ecd;
+  margin-top: 11px;
+  margin-bottom: 18px;
+}
+.naem-personala{
+  display: block;
+  width: 647px;
+  height: 323px;
+}
+.otstyp{
+  display: block;
+  margin-bottom: 30px;
+}
+.video{
+  width: 651px;
+  height: 367px;
+  margin-top: 47px;
+  margin-bottom: 50px;
+}
+.rasmotrim{
+  color: #373737;
+  font-family: "Century Gothic";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  display: block;
+  margin-bottom: 18px;
+  margin-left: 2px;
+}
+.rasmotrim-list{
+  padding-left: 7px;
+  margin-bottom: 37px;
+}
+.rasmotrim-list li{
+  color: #373737;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  list-style-type: none;
+  /*padding-left: 9px;*/
+  padding-top: 2px;
+}
+.dot{
+  margin-right: 20px;
+}
+.otstyp2{
+  margin-right: 25px;
+}
+.po-okonchanii{
+  color: #373737;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  list-style-type: none;
+  display: block;
+  margin-top: 23px;
+  margin-left: 11px;
+  margin-bottom: 72px;
+}
+.otstyp3{
+  margin-right: 9px;
+}
+.otstyp4{
+  margin-right: 21px;
+}
+.price{
+  display: flex;
+  margin-left: 3px;
+}
+.part1{
+  margin-right: 85px;
+}
+.top{
+  width: 160px;
+  color: #373737;
+  font-family: "Yeseva One";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 28px;
+  display: block;
+  margin-bottom: -1px;
+}
+.bot{
+  display: block;
+  width: 120px;
+  color: #373737;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.part2{
+  margin-right: 70px;
+}
+.horizontal-line{
+  width: 662px;
+  border: 1px solid #ebebeb;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 32px;
+}
+.section3{
+  margin-top: 87px;
+}
+.who{
+  display: flex;
+  margin-top: 35px;
+  margin-left: 14px;
+  margin-bottom: 15px;
+}
+.who-text{
+  display: block;
+  margin-top: 33px;
+  margin-left: 14px;
+  margin-right: 31px;
+}
+.director{
+  margin-right: 13px;
+}
+.img3{
+  margin-right: 10px;
+}
+.section4{
+  margin-top: 136px;
+  margin-bottom: 147px;
+}
+.alexey{
+  width: 317px;
+height: 318px;
+  margin-right: 11px;
+  margin-top: -46px;
+}
+.vedyshiy{
+  margin-left: -5px;
+  margin-bottom: 45px;
+}
+.samoilenko{
+  color: #252525;
+  font-family: "Yeseva One";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 2px;
+  display: block;
+  margin-bottom: 7px;
+}
+.otstyp5{
+  margin-bottom: 20px;
+}
+.rykovoditel{
+  height: 13px;
+  font-family: "Century Gothic";
+  font-size: 14px;
+  font-weight: 400;
+  color: #696969;
+  line-height: 26px;
+  margin-left: 2px;
+  display: block;
+  margin-bottom: 19px;
+}
+.rykovoditel span{
+  color: #252525;
+  line-height: 28px;
+  margin-left: 4px;
+}
+.section5{
+  width: 100%;
+  height: 509px;
+  background-color: #ffc123;
+  padding-top: 72px;
+}
+.request2{
+  margin-left: 587px;
+  margin-top: 50px;
+}
+.request2 input{
+  margin-top: 15px;
+  height: 30px;
+  margin-bottom: 20px;
+  width: 475px;
+  border: none;
+  border-bottom: 1px solid #8e6e1b;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8e6e1b;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.wait2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 248px;
+  height: 54px;
+  border-radius: 27px;
+  background-color: #ffffff;
+  color: #373737;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 587px;
+  line-height: 24px;
+  margin-top: 22px;
+}
+.bot-title{
+  margin-left: 587px;
+}
