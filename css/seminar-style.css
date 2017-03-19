@@ -7,6 +7,11 @@
   margin: auto;
   display: flex;
 }
+.section1{
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
 .left{
   width: 410px;
   display: flex;
@@ -261,7 +266,7 @@ height: 318px;
   height: 559px;
   background-color: #3b54a1;
   padding-left: 19px;
-  width: 679px;
+  width: 50%;
 }
 .vebinar{
   width: 131px;
@@ -277,7 +282,7 @@ height: 318px;
 .yellow{
   height: 559px;
   background-color: #ffc123;
-  width: 491px;
+  width: 50%;
 }
 .kak-yspeshno{
   margin: 0;
