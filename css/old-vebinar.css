@@ -170,6 +170,7 @@ li p{
 	font-family:'Yeseva One';
 	font-size: 36px;
 	color:black;
+	padding-left: 130px;
 }
 
 .mar-top-find{
@@ -328,14 +329,20 @@ li p{
 
 ul li {
     list-style-type: none; /* Прячем исходные маркеры */
+		position: relative;
+		padding-left:20px;
    }
 ul li:before {
-color: #d7d7d7; /* Цвет маркера */
-content: " • "; /* Сам маркер */
-padding-right: 20px; /* Расстояние от маркера до текста */
-list-style-position:outside;
-margin-top:0px;
-    float: left;
+	color: #d7d7d7; /* Цвет маркера */
+	content: " • "; /* Сам маркер */
+	padding-right: 20px; /* Расстояние от маркера до текста */
+	list-style-position:outside;
+	margin-top:0px;
+	float: left;
+	position:absolute;
+top:0;
+bottom:0;
+left:0;
 }
 
 ul{
@@ -409,7 +416,7 @@ li p{
 }
 
 .price-list{
-	padding:0 0 0 20px !important;
+	padding:0;
 	margin-top:40px;
 	font-size:20px;
 	font-family:'Century Gothic';

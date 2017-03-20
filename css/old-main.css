@@ -327,7 +327,9 @@ header{
 	font-size:16px;
 }
 
-
+.row.plus-mar-left{
+	margin-left: 0px;
+}
 
 /* types of employee*/
 

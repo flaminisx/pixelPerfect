@@ -42,18 +42,16 @@
 	<div class="gold-background"></div>
 	<div class="circle-back">
 	<div class="container">
-	<?php
-    $mypost = array( 'post_type' => 'main_programm', );
-    $loop = new WP_Query( $mypost );
-    ?>
-    <?php while ( $loop->have_posts() ) : $loop->the_post();?>
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <article>
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="vebinar-tittle-small">Главная программа</div>
 				<div class="vebinar-tittle">
 					<div class="col-lg-8">
-						<?php the_title(); ?>
+            Обучение полной<br>
+            технологии найма <br>
+            продуктивных <br>
+            сотрудников
 					</div>
 				</div>
 			</div>
@@ -75,7 +73,7 @@
 				<div class="col-lg-7 quote">
 					<div class="nav-line"></div>
 					<div class="quote-text">
-						<?php the_content(); ?>
+						Продуктивный человек в организации — это человек, который приносит для группы существенно больше пользы, чем неприятностей или проблем. Именно такие люди и становятся незаменимой основой компании.
 					</div>
 				</div>
 			</div>
@@ -83,20 +81,22 @@
 		<div class="container content">
 		<div class="row">
 			<div class="col-lg-4" style="text-align:right;">
-				<?php echo get_the_post_thumbnail($id, array(300,300)) ?>
+        <img src="./img/vladimir.png">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-7 quote">
 				<div class="block-tittle-vebinar">Ведущий</div>
 				<div class="nav-line"></div>
 				<div class="row plus-mar-left">
-					<h3><strong><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_author_name', true ) ); ?></strong></h3>
+					<h3 style="font-family: 'Yeseva One';">Владимир Сидоренко</h3>
 					<div class="person-position">
-						<?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_author_position', true ) ); ?>
+						Президент «Преформии»
 					</div>
 					<div class="quote-text">
 						<p>
-						<?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_author_about', true ) ); ?></p>
+              С 1989 года успешный опыт открытия, становления и управления
+собственными компаниями в различных областях бизнеса; один из основателей и Председатель Совета директоров международной консалтинговой компании «ПЕРФОРМИЯ», которая с 2001 года специализируется на эффективных решениях проблем с персоналом и на технологии поиска продуктивных сотрудников.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -151,18 +151,16 @@
 						<div class="row">
 							<div class="col-lg-6">
 								<ul class="about-list">
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_1', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_2', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_3', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_4', true ) ); ?></li>
+									<li style="margin-top:15px;">Техника проведения короткого фирменного интервью «ПЕРФОРМИИ»</li>
+									<li style="margin-top:15px;">Навыки наведения справок о кандидате и понимание целей наведения справок</li>
+									<li style="margin-top:15px;">Шаги для снижения текучки среди новых сотрудников.</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
 								<ul class="about-list">
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_5', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_6', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_7', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_1_8', true ) ); ?></li>
+                  <li style="margin-top:15px;">Основы снижения риска при найме</li>
+									<li style="margin-top:15px;">Основы составления объявлений притягивающих продуктивных людей</li>
+									<li style="margin-top:15px;">Теория распознавания продуктивных людей при найме</li>
 								</ul>
 							</div>
 						</div>
@@ -179,59 +177,26 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-lg-6">
+              <div class="col-lg-6">
 								<ul class="about-list">
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_1', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_2', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_3', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_4', true ) ); ?></li>
+									<li style="margin-top:15px;">Техника проведения короткого фирменного интервью «ПЕРФОРМИИ»</li>
+									<li style="margin-top:15px;">Навыки наведения справок о кандидате и понимание целей наведения справок</li>
+									<li style="margin-top:15px;">Шаги для снижения текучки среди новых сотрудников.</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
 								<ul class="about-list">
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_5', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_6', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_7', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_8', true ) ); ?></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="block-about mar-top">
-						<div class="row">
-							<div class="col-lg-2">
-								<div class="block-number">
-									Блок 3
-								</div>
-							</div>
-							<div class="col-lg-10">
-								<div class="block-number-line"></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6">
-								<ul class="about-list">
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_1', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_2', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_3', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_4', true ) ); ?></li>
-								</ul>
-							</div>
-							<div class="col-lg-6">
-								<ul class="about-list">
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_5', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_6', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_7', true ) ); ?></li>
-									<li style="margin-top:15px;"><?php echo esc_html( get_post_meta( get_the_ID(), 'main_programm_li_2_8', true ) ); ?></li>
+                  <li style="margin-top:15px;">Основы снижения риска при найме</li>
+									<li style="margin-top:15px;">Основы составления объявлений притягивающих продуктивных людей</li>
+									<li style="margin-top:15px;">Теория распознавания продуктивных людей при найме</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 </div>
 <div class="price">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-2">
@@ -421,8 +386,9 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="gold-block">
+	</div>
+	</div>
+  <div class="gold-block">
 		<div class="container">
 			<div class="row">
 				<div class="gold-tittle">Консультация об участии</div>
@@ -453,12 +419,10 @@
 			</div>
 		</div>
 		</article>
-	</div>
-	</div>
 </section>
 
 
-		<footer style="margin-top:150px;" class="white-text-color">
+		<footer class="white-text-color">
 			<div style="margin-left:15%; width:19.73%; float:left">
 				<div class="small-line acent-color"></div>
 				<div class="person-position footer-color" style="margin-top:27px">
