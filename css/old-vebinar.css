@@ -1,0 +1,490 @@
+li{
+	list-style-position: outside !important;
+}
+
+a {
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+
+.blue-background{
+	position: absolute;
+	height:560px;
+	width:55%;
+	background:#3b54a1;
+}
+
+.gold-background{
+	position: absolute;
+	height:560px;
+	left:55%;
+	width:45%;
+	background:#ffc123;
+}
+
+.vebinar-tittle-small{
+	margin-top:75px;
+	font-size: 30px;
+	font-family:'Century Gothic';
+	color:white;
+}
+
+.vebinar-tittle{
+	margin-top:15px;
+	margin-left:-15px;
+	font-size: 48px;
+	font-family:'Yeseva One';
+	color:white;
+	line-height: 1.2;
+}
+
+.telephone-black{
+	font-size: 30px;
+	margin-top:75px;
+	font-family:'Century Gothic';
+	color:black;
+
+}
+
+.invite{
+	font-size: 20px;
+	margin-top:25px;
+	font-family:'Century Gothic';
+	color:black;
+}
+
+.input{
+	font-family:'Century Gothic';
+	margin-top:40px;
+	padding:5px 200px 15px 0;
+	background: none;
+	border-width: 0 0 1px 0;
+	border-style:solid;
+	border-color:#996633;
+	color:#996633;
+	transition: 0.1s;
+	font-size: 16px;
+}
+
+::-webkit-input-placeholder {color:#996633;}
+::-moz-placeholder          {color:#996633;}/* Firefox 19+ */
+:-moz-placeholder           {color:#996633;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#996633;}
+
+.new::-webkit-input-placeholder {color:black;}
+.new::-moz-placeholder          {color:black;}/* Firefox 19+ */
+.new:-moz-placeholder           {color:black;}/* Firefox 18- */
+.new:-ms-input-placeholder      {color:black;}
+
+.input:focus{
+	border-width: 0 0 3px 0;
+	outline:none;
+}
+
+.mar-top-input{
+	margin-top:50px;
+}
+
+.invite-buton{
+	font-family:'Century Gothic';
+	padding:10px 10px 10px 10px;
+	border-width:2px;
+	border-color:white;
+	border-style: solid;
+	border-radius:20px;
+	color:black;
+	background:white;
+	margin-top:40px;
+	text-align: center;
+	transition: 0.2s;
+	cursor:pointer;
+}
+
+.invite-buton:hover{
+	border-radius:5px;
+}
+
+.quote-text p{
+	margin-top:30px;
+}
+
+.minus-left-mar{
+	margin-left: -21px;
+}
+
+.vebinar-view{
+	padding-left:20px !important;
+	font-size: 16px;
+	font-family:'Century Gothic';
+	margin-top:30px;
+}
+
+ol li{
+
+	color:black;
+}
+
+li p{
+	color:black;
+}
+
+.grey-line{
+	border-color:#ebebeb;
+	border-width: 0 0 1px 0;
+	border-style:solid;
+}
+
+.mar-top{
+	padding-bottom: 10px;
+	margin-top: 50px;
+}
+
+.who{
+	font-family:'Century Gothic';
+	font-size: 16px;
+}
+
+
+.block-tittle-vebinar{
+	font-family:'Yeseva One';
+	color:#373737;
+	font-size:36px;
+	padding-bottom: 40px;
+	text-align: left;
+}
+
+.plus-mar-left{
+	margin-left:0px;
+}
+
+.gold-block{
+	background: #ffc123;
+	width: 100%;
+	margin-top:200px;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+
+.gold-tittle{
+	font-family:'Yeseva One';
+	font-size: 36px;
+	color:black;
+}
+
+.mar-top-find{
+	margin-top:100px;
+}
+
+.find{
+	margin-top: -40px;
+	text-align: right;
+}
+
+.find-input{
+	font-family:'Century Gothic';
+	margin-top:40px;
+	padding: 20px 60px 10px 40px;
+	background: none;
+	border-width: 0 0 1px 0;
+	border-style:solid;
+	border-color:black;
+	color:#696969;
+	transition: 0.1s;
+	font-size: 16px;
+	background-image:url('../img/find.png');
+	background-repeat: no-repeat;
+	background-position: 6px 22px;
+}
+
+.find-input::-webkit-input-placeholder {color:#696969;}
+.find-input::-moz-placeholder          {color:#696969;}/* Firefox 19+ */
+.find-input:-moz-placeholder           {color:#696969;}/* Firefox 18- */
+.find-input:-ms-input-placeholder      {color:#696969;}
+
+
+.find-buton{
+	margin-top:53px !important;
+	padding:10px 0 10px 0;
+	font-family:'Century Gothic';
+	border-radius:20px;
+	color:black;
+	background:#284ecd;
+	margin-top:40px;
+	text-align: center;
+	transition: 0.2s;
+	cursor:pointer;
+	color:white
+}
+
+.find-buton:hover{
+	/*margin-top:51px !important;
+	padding:11px 0 11px 0;*/
+	border-radius: 5px;
+}
+
+.catalog-sidebar{
+	padding-left:100px !important;
+	font-size: 20px;
+	font-family:'Century Gothic';
+	margin-top: 100px;
+		line-height: 1.2;
+}
+
+#active li{
+	color:#284ecd;
+	font-family:'Century Gothic';
+	cursor: pointer;
+}
+
+li p{
+	color:black;
+}
+
+#passive{
+	transition: 0.5s;
+	cursor:pointer;
+}
+
+#passive li{
+	transition: 0.5s;
+}
+
+#passive li:hover{
+	color:#284ecd;
+	font-family:'Century Gothic';
+}
+
+.more{
+	width:100%;
+	text-align: center;
+	float:left;
+}
+
+.more-button{
+	width:160px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top:53px !important;
+    padding:10px 20px 10px 20px;
+
+	border-width:2px;
+	border-color:#284ecd;
+	border-style: solid;
+	border-radius:20px;
+
+	font-family:'Century Gothic';
+	background:none;
+	text-align: center;
+	transition: 0.2s;
+	cursor:pointer;
+	color:#2d2d2d;
+}
+
+.more-button:hover{
+	border-radius: 5px;
+}
+
+.quetion-buton{
+	padding:10px 0 10px 0;
+	font-family:'Century Gothic';
+	border-radius:20px;
+	color:black;
+	background:#284ecd;
+	margin-top:20px;
+	text-align: center;
+	transition: 0.2s;
+	cursor:pointer;
+	color:white
+}
+
+.quetion-buton:hover{
+	/*margin-top:51px !important;
+	padding:11px 0 11px 0;*/
+	border-radius: 5px;
+}
+
+.block-about{
+	margin-top: 10px;
+}
+
+.block-number-line{
+	height:1px;
+	background: #284ecd;
+	width:100%;
+	margin-top:20px;
+	margin-left:-20px;
+}
+
+.about-list{
+	font-size: 16px;
+	font-family:'Century Gothic';
+	margin-top:30px;
+	padding:0 !important;
+	color:#3d3d3d;
+	font-size:16px;
+}
+
+
+ul li {
+    list-style-type: none; /* Прячем исходные маркеры */
+   }
+ul li:before {
+color: #d7d7d7; /* Цвет маркера */
+content: " • "; /* Сам маркер */
+padding-right: 20px; /* Расстояние от маркера до текста */
+list-style-position:outside;
+margin-top:0px;
+    float: left;
+}
+
+ul{
+	margin-left: 0px;
+	padding-left: 0px !important;
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    margin-top: 30px;
+    list-style-position:outside;
+}
+
+ol{
+	margin-left: 20px;
+	padding-left: 0px !important;
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    margin-top: 30px;
+    list-style-position:outside;
+}
+
+ol li{
+
+	color:black;
+}
+
+li p{
+	color:black;
+}
+
+#passive li{
+	color:#696969;
+	font-size: 20px;
+	margin-top:10px;
+}
+
+#active li{
+	font-size: 20px;
+	margin-top:10px;
+}
+
+.price{
+	padding:100px 0 100px;
+	margin-top:150px;
+	width:100%;
+	background: #f1f2fa;
+}
+
+.price-card{
+	background: white;
+	height:325px;
+	width:100%;
+	padding:60px 0 0 25px;
+}
+
+.price-tittle{
+	color:#2d2d2d;
+	font-size: 36px;
+	font-family:'Yeseva One';
+}
+
+.card-mar{
+	margin-top: 100px;
+	margin-left:10px;
+}
+
+.card-line{
+	background: #284ecd;
+	height:1px;
+	margin-top:10px;
+	width:35px;
+}
+
+.price-list{
+	padding:0 0 0 20px !important;
+	margin-top:40px;
+	font-size:20px;
+	font-family:'Century Gothic';
+}
+
+
+.plan-mar{
+	margin-top:20px;
+}
+
+
+.wi-fi{
+	margin-top: 10px;
+}
+
+.nearest-event{
+	border:1px solid #c1c9e0;
+	width:100%;
+	padding:50px 100px 45px 40px;
+	margin-top:100px;
+}
+
+.nearest-micro-tittle{
+	color:#696969;
+	font-size: 16px;
+	font-family:'Century Gothic';
+}
+
+.link-to-FB{
+	margin-top: 15px;
+	color:#284ecd;
+	font-size: 20px;
+	font-family:'Century Gothic';
+	cursor:pointer;
+}
+
+.locate{
+	font-size: 16px;
+	font-family:'Century Gothic';
+	color:#2d2d2d;
+	margin-top:-10px !important;
+}
+
+.download-button{
+	position: absolute;
+	opacity:0;
+	top:50px;
+	left:110px;
+	transition: 0.5s;
+}
+
+.card-download{
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.card-download:hover .download-button{
+	opacity: 1;
+	top:90px;
+}
+
+.card-mar-top{
+	margin-top: 20px;
+}
+
+.video-window{
+	position:fixed;
+	top:40%;
+	margin-left:auto;
+	margin-right:auto;
+	display: none;
+	width:600px;
+	height:400px;
+}
+
+.mar-content{
+	margin-top:150px;
+}
